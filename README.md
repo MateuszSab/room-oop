@@ -1,4 +1,4 @@
-#Define a Room class that should do the following:
+# Define a Room class that should do the following:
 
 A room has a name and capacity
 
