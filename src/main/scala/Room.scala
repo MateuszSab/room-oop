@@ -1,4 +1,5 @@
 class Room(val name: String, capacity: Int) {
+  if (capacity < 0) throw new IllegalStateException
   var people = 0
 
   def enter(numOfPeople: Int): Boolean = {
